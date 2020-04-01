@@ -1,0 +1,10 @@
+@charset 'utf-8';
+
+.content-con{
+    @extend %con;
+    padding: 0 50px 50px;
+    .con-title{
+        text-align: center;
+        padding: 30px 0;
+    }
+}

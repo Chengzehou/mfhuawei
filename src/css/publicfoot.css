@@ -1,0 +1,56 @@
+/* 九、底部 */
+.foot{min-height:407px;background:#F9F9F9;}
+.foot-con .foot1{padding:22px 0 20px;}
+.foot1 ul{overflow: hidden;}
+.foot1 ul li{float: left;padding-right: 115px;}
+.foot1 ul li a{font-size: 18px;color: #3a3a3a;}
+.foot1 ul li i{background:url(https://res8.vmallres.com/20200313/images/echannel/icon/icon01.svg) no-repeat;display: inline-block;vertical-align: middle;width: 40px;height: 40px;margin-right: 15px;}
+.foot1 ul li:nth-child(1) i{background-position: -74px 0;}
+.foot1 ul li:nth-child(2) i{background-position: -154px 0;}
+.foot1 ul li:nth-child(3) i{background-position: -194px 0;}
+.foot1 ul li:nth-child(4) i{background-position: -114px 0;}
+.foot1 ul li:nth-child(4){padding-right: 0;}
+
+.foot2{border-top: 1px solid #E5E5E5;border-bottom: 1px solid #E5E5E5;padding: 23px 0 24px;overflow: hidden;}
+.foot2 .ser1 dl{float: left;width: 16.6667%;}
+.foot2 .ser1{width:920px;padding-top: 5px;border-right: 1px solid #e5e5e5;float: left;}
+.foot2 .ser1 dl dt p{font-size: 14px !important;padding-bottom: 7px;color: #333;display: block;border-left: none;padding-left: 0;line-height: 1.5 !important;margin-bottom: 0 !important}
+.foot2 .ser1 dl dd a{line-height: 22px;color: #777;font-size: 12px;}
+.foot2 .ser1 dl dd a:hover{color: #ca141d;}
+.foot2 .ser1 .youqinglianj dd{width: 100%;overflow: hidden;}
+.foot2 .ser1 .youqinglianj dd ol{float: left;}
+.youqinglianj-con{width: 1431px;margin-left: 0;}
+.youqinglianj-con ol{width: 158px;}
+.youqinglianj dt{position: relative;}
+.youqinglianj .yqlj-btn{position: absolute;left:62px;top:3px;}
+.yqlj-btn1{display: inline-block;width:10px;height:14px;margin-right: 4px;background:url(https://res8.vmallres.com/20200313/images/echannel/icon/icon03.svg) no-repeat;background-position: -96px 0;}
+.yqlj-btn2{display: inline-block;width:10px;height:14px;margin-right: 4px;background:url(https://res8.vmallres.com/20200313/images/echannel/icon/icon03.svg) no-repeat;background-position: -66px 0;}
+
+.foot2 .ser2{width:278px;min-height: 160px;margin-top: 2px;float: left;}
+.foot2 .ser2 .st dt{font-size: 24px;font-weight: bold;color:#575757;text-align: center;}
+.foot2 .ser2 .st dd:nth-of-type(1) a{font-size: 14px;color: #575757;text-align: center;margin-left:37px;}
+.foot2 .ser2 .st dd:nth-of-type(1) ol{text-align: center;}
+.foot2 .ser2 .st dd:nth-of-type(2) a{display: block;width:170px;height: 34px;margin:0 auto;margin-top:10px;font-size: 14px;line-height: 34px;background: #333;border-radius: 17px;text-align: center;color: #FFF;}
+.foot2 .ser2 .st dd:nth-of-type(2) i{display: inline-block;height:20px;width: 20px;margin-right: 6px;background:url(https://res8.vmallres.com/20200313/images/echannel/icon/icon03.svg) no-repeat;background-position: -106px 0;position: relative;top:5px;}
+
+.foot2 .ser2 .sb{float: left;width: 250px;margin-top: 26px;margin-left: 40px;}
+.foot2 .ser2 .sb h2{font-size: 14px;color: #333;float: left;}
+.foot2 .ser2 .sb ul li{float: left;margin-right: 11px;}
+.foot2 .ser2 .sb a{display: block;width: 24px;height: 24px;text-indent: -999px;overflow: hidden;background: url("https://res8.vmallres.com/20200313/images/echannel/icon/icon03.svg") no-repeat;}
+.foot2 .ser2 .sb ul li:nth-of-type(1) a{background-position: -126px 0;}
+.foot2 .ser2 .sb ul li:nth-of-type(2) a{background-position: -150px 0;}
+.foot2 .ser2 .sb ul li:nth-of-type(3) a{background-position: -174px 0;}
+.foot2 .ser2 .sb ul li:nth-of-type(4) a{background-position: -198px 0;}
+
+.foot3{padding: 25px 0 28px;}
+.foot3-con{overflow: hidden;}
+.foot3-con p:nth-of-type(1){float:left;width: 82px;height: 20px;padding: 3px 20px 0 0;}
+.foot3-con p:nth-of-type(1) img{width:82px;height:20px;}
+.foot3-con .fc{float: left;font-size:12px;color: #777;}
+.foot3-con .fc ul{margin-top:3px;margin-bottom: 6px;}
+.foot3-con .fc ul li{float: left;padding-right: 6px;border-right: 1px solid #d3d3d3;margin-right: 6px;}
+.foot3-con .fc ul li a{font-size:12px;color: #777;}
+.foot3-con .fc ul li:nth-of-type(10){border-right: 0;}
+.foot3-con p:nth-of-type(2) img{height:24px;width: 70px;float: right;}
+.fc a{color: #777;}
+.fc a:hover{color: #ca141d!important;}

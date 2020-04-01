@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="shortcut icon" href="https://www.vmall.com/favicon.ico">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/publichead.css">
+    <link rel="stylesheet" href="../css/publicfoot.css">
+    <link rel="stylesheet" href="../css/shopCar.css">
+</head>
+
+<body>
+    <div class="div1"></div>
+    <div class="div2">
+        <div class="div2-con">
+            <div class="shopcarhead">
+                <div class="headleft">
+                    <a href="index.html" class="logo">
+                        <img src="https://res.vmallres.com/pimages//sale/2019-01/AF2GXbxrWmRqvyNfYzCl.png" alt="华为商城">
+                    </a>
+                    <span>我的购物车</span>
+                </div>
+            </div>
+            <div class="shopcar-con">
+                <div class="nogoods" style="display: none;">
+                    <span></span>
+                    <p>您的购物车里什么都没有哦~</p>
+                    <a href="index.html">去逛逛</a>
+                </div>
+                <div class="goodsinfor">
+                    <table>
+                        <tr class="goodstitle">
+                            <td><input type="checkbox" id="all"><label for="all">全选</label></td>
+                            <td>商品图片</td>
+                            <td>商品名称</td>
+                            <td>商品活动</td>
+                            <td>商品单价</td>
+                            <td>商品数量</td>
+                            <td>商品总价</td>
+                            <td>删除</td>
+                        </tr>
+                    </table>
+                    <div class="total">
+                        <div class="select">
+                            <input type="checkbox" id="allgoods"><label for="allgoods">全选</label>
+                            <button>清除选中商品</button>
+                        </div>
+                        <div class="righttotal">
+                            <p>共选中<span>0</span>件商品</p>
+                            <div class="allmuch">
+                                ￥<span>0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div3"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../javascript/shopCar.js"></script>
+</body>
+
+</html>

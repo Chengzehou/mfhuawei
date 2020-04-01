@@ -1,0 +1,19 @@
+一、首页---index.html
+轮播图、楼梯导航、列表数据渲染(js、php、mysql)、懒加载(插件juqery.lazyload.js)
+
+二、登录---signin.html
+前后端交互，匹配注册过的用户名密码，封装jscookie
+bootstrap
+
+三、注册---userRegister.html
+前后端交互、正则表达式验证输入内容、匹配用户名是否存在
+bootstrap、sass
+
+四、商品列表---moreGoods.html
+前后端交互，渲染，价格排序，分页插件
+
+五、商品详情---gInformation.html
+对应商品对应详情，图片放大镜，加入购物车
+
+六、购物车---shopcar.html
+统计、合计、选中、全选、修改数量、渲染    localStorage

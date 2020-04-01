@@ -1,0 +1,18 @@
+.phonecon{width:1200px;margin:0 auto;}
+
+.phonecon{overflow: hidden;}
+.phonelist{width:100%;padding-bottom: 20px;}
+
+.phonelist ul{width: 1210px;}
+.phonelist li{width: 242px;float: left;}
+.phonelist li div{width:200px;height:352px;margin-bottom: 10px;background: #fff;padding:0 16px;overflow: hidden;transition: all .2s ease}
+.phonelist li div:hover{box-shadow: 0 10px 15px rgba(0,0,0,0.07);transform: translate3d(0px,-2px,0px);}
+.phonelist li .phone-img{margin-top: 30px;}
+.phone-img img{width:180px;height:180px;}
+.phone-name{line-height: 20px;font-size: 14px;margin:8px 0;text-overflow: ellipsis;white-space: nowrap;color: #333;}
+.phone-price{font-weight: normal;line-height: 24px;color: #ca141d;font-size: 18px;margin-bottom: 8px;}
+.phone-sale{color: #999;line-height: 14px;font-size: 12px;}
+
+.phonecalss{width:100%;overflow: hidden;padding:20px 0;}
+.phonecalss button{width:100px;height:30px;background:rgba(0,0,0,0.07);border: 0;font-size: 12px;color: #333;}
+.phonecalss button:hover{color: #ca141d;}

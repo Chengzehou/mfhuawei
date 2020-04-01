@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+$banxin : 960px;
+%con{
+    width:$banxin;
+    margin: 0 auto;
+}
+
+@import 'userRhead';
+
+@import 'userRcontent';
+
+@import 'userRfoot';

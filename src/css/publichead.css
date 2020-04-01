@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* 通栏  1200px */
+.topcon,.headcon,.foot-con{width:1200px;margin:0 auto;}
+
+/* 一、头部信息 */
+.topnews{height:36px;background: #2e2828;}
+.topcon{height:36px;}
+.topcon a:hover{color:#fff;}
+.topcon-left{width:543px;}
+.topcon-left ul{width:543px;}
+.topcon-left li{float: left;padding:0 8px;position: relative;}
+.topcon-left li::before{content: "";width:1px;height:10px;display: block;background: #414141;position: absolute;left: 0;top:13px;}
+.topcon-left li:nth-child(1){padding-left: 0;}
+.topcon-left li:nth-child(1)::before{content: none;} /*清除第一个li的none*/
+.topcon-left li a{font-size: 12px;line-height: 36px;color:#afafaf;position: relative;}
+.topcon-left li:last-child a::after{content: "";display: block;width: 14px;height:14px;background:url(https://res8.vmallres.com/20200122/images/echannel/icon/icon-commonnew.svg) no-repeat;background-position: -71px 0;position: absolute;top:0;right: -5px;}
+.topcon-left li:last-child a{padding-right:15px;}
+/* 右侧信息 */
+.topcon-right{width:480px;}
+.topcon-right ul{width:543px;}
+.topcon-right li{float: left;padding:0 8px;position: relative;}
+.topcon-right li::before{content: "";width:1px;height:10px;display: block;background: #414141;position: absolute;left: 0;top:13px;}
+.topcon-right li:nth-child(1){padding-left: 0;}
+.topcon-right li:nth-child(1)::before{content: none;} /*清除第一个li的none*/
+.topcon-right li a{font-size: 12px;line-height: 36px;color:#afafaf;position: relative;}
+.topcon-right li:nth-child(1) a:nth-child(1){margin-right: 8px;}
+.topcon-right li:nth-child(3) a,.topcon-right li:nth-child(4) a,.topcon-right li:nth-child(5) a{padding-right:15px;}
+.topcon-right li:nth-child(3) a::after,.topcon-right li:nth-child(4) a::after,.topcon-right li:nth-child(5) a::after{content: "";display: block;width: 14px;height:14px;background:url(https://res8.vmallres.com/20200122/images/echannel/icon/icon-commonnew.svg) no-repeat;background-position: -71px 0;position: absolute;top:0;right: -5px;}
+.topcon-cart::before{content: "";display: block;width:20px;height:12px;background:url(https://res8.vmallres.com/20200122/images/echannel/icon/icon-commonnew.svg) no-repeat;background-position: -99px -4px;position: absolute;top:1px;left:-3px;}
+.topcon-cart{padding-left: 23px;}
+.topcon-right li:last-child{padding:0 12px 0 10px;background:#424242;}
+.topcon-right li:last-child:hover{background:#ca141d;}
+
+.topcon-left{float: left;}
+.topcon-right{float: right;}

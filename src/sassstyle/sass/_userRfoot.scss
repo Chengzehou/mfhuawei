@@ -1,0 +1,32 @@
+
+.foot{
+    width: 100%;
+    padding:24px 0;
+    background: rgba(0,0,0,0.05);
+}
+.foot-con{
+    margin:0 auto;
+    .foota{
+        text-align: center;
+        line-height: 14px;
+        margin:10px auto 0;
+        .foot-a{
+            font-size: 11.2px;
+            padding:0 10px;
+            color: #000;
+            opacity: 0.6;
+        }
+        .foot-em{
+            color: rgba(0,0,0,0.1);
+            line-height: 14px;
+        }
+    }
+    .copyright{
+        text-align: center;
+        color: #000;
+        opacity: 0.3;
+        line-height: 14px;
+        margin:10px auto 0;
+        font-size: 11.2px;
+    }
+}

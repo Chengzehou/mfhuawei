@@ -1,0 +1,48 @@
+.content{width:1200px;margin:0 auto;min-height:50px;padding:100px 0;overflow: hidden;}
+/*图片展示样式*/
+.left{float: left;width:450px;}
+.phoneimg{width:450px;height:450px;}
+.phoneimg a{display: block;position: relative;}
+.phoneimg .spicture{width:450px;height:450px;}
+.phoneimg-nav{width:450px;height:68px;margin-top: 18px;position: relative;}
+.phoneimg-nav>a{position:absolute;display:inline-block;width: 30px;height: 68px;top: 0;} 
+/*左右翻页按钮*/
+.phoneimg-nav .leftbtn{left:0;}
+.phoneimg-nav .rightbtn{right:0;}
+.phoneimg-nav .leftbtn::before{content: "";width: 30px;height: 30px;display: block;margin-top: 19px;background: url(https://res8.vmallres.com/20200313/images/echannel/icon/icon50.png) no-repeat -48px -29px;}
+.phoneimg-nav .rightbtn::before{content: "";width: 30px;height: 30px;display: block;margin-top: 19px;background: url(https://res8.vmallres.com/20200313/images/echannel/icon/icon50.png) no-repeat -78px -29px;}
+.phoneimg-nav .leftbtn:hover::before{background-position: -48px -59px;}
+.phoneimg-nav .rightbtn:hover::before{background-position: -78px -59px;}
+.phoneimg-nav .active a{border: 1px solid #ca141d;}
+/*小列表图片*/
+.phoneimgnav-con{width:370px;height: 68px;margin-left: 40px;overflow: hidden;;}
+.phoneimgnav-con ul li{float: left;padding:0 3px;}
+.phoneimgnav-con ul li a{display: block;width: 66px;height:66px;border:1px solid #fff}
+.phoneimgnav-con ul li a img{width: 60px;height:60px;margin:3px 0 0 3px;}
+
+/*右侧商品信息*/
+.right{float: left;padding-left: 30px;}
+.right-con{width:700px;padding-bottom:30px;}
+.right-con .phonename{width:700px;height:60px;font-size: 30px;line-height: 30px;overflow: hidden;}
+.right-con .phonegift{height:50px;margin-top: 30px;border-bottom: 1px solid #e2e2e2;}
+.right-con .phonegift span{display: inline-block;border-radius: 10px;border: 1px solid #ca141d;color:#ca141d;text-align: center;font-size: 15px;line-height: 15px;padding:5px;}
+.right-con .phoneprice{width:700px;height:30px;margin-top: 30px;}
+.right-con .phoneprice span{line-height: 30px;font-size: 30px;color: #ca141d;}
+/*购买*/
+.buy{overflow: hidden;}
+.howmany,.inthecar{float: left;}
+.buy{margin-top: 30px;}
+.buy .many{width:41px;height:44px;line-height: 44px;font-size: 18px;text-align: center;border: 0;border-right:1px solid #e2e2e2;}
+.howmany{border: 1px solid #e2e2e2;border-radius: 2px;}
+.howmany a{display:block;width:21px;height:21px;font-size: 16px;line-height:21px;font-weight: bold;color: #777;background:#fff;border: 0;text-align: center;cursor: pointer;}
+.howmany .up{border-bottom: 1px solid #e2e2e2;}
+.buy .many,.howmany p{float: left;}
+.inthecar{margin-left:30px;border-radius: 2px;}
+.carbtn{display:block;height:44px;padding: 0 30px;line-height: 44px;text-align: center;background: #fc600c;color: #fff;cursor: pointer;}
+
+
+/*小放大镜*/
+.phoneimg{position: relative;}
+.phoneimg .sf{width:10px;height:10px;position: absolute;visibility:hidden;background:rgba(1,1,1,0.2);}
+.phoneimg .bf{position: absolute;left:450px;top:0;width:500px;height:500px;visibility: hidden;overflow: hidden;}
+.bpicture{width:800px;height:900px;position: absolute;top:0;left:0;}
